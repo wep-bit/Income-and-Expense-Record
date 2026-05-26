@@ -801,8 +801,6 @@ function renderSummary() {
     document.getElementById('grand-total').innerHTML =
         `${grand.toLocaleString('th-TH',{minimumFractionDigits:2})} <span class="currency">บาท</span>`;
 
-    document.getElementById('shop-total').innerHTML =
-        `${shop.toLocaleString('th-TH',{minimumFractionDigits:2})} <span class="currency">บาท</span>`;
 
     const box = document.getElementById('dynamic-person-boxes');
     box.innerHTML = '';
